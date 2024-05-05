@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .App-logo {
@@ -35,4 +37,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.image{
+  height: 200px;
+  width: 200px;
+}
+
+.card{
+  border: 1px solid black;
+  margin: 20px;
+  width: 210px;
+  height: 300px;
+}
+.input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.input input{
+      height: 30px;
+    width: 200px;
+    border-radius: 5px;
 }
